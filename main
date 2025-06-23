@@ -1,14 +1,5 @@
-#! /bin/bash
-
-# Created By Adarsh Addee
-# Aim: To Access Root Privileges in Termux
-# Date: 27 Aug 2021
-# Note: THIS TOOL WILL NOT GIVE YOU REAL ROOT ACCESS
-
 clear
 echo -e "\e[1;31m"
-
-xdg-open https://www.youtube.com/@MrIdealhatyt
 
 echo -e "\e[0m"
 mv /data/data/com.termux/files/usr/etc/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc_old
